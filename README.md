@@ -1,4 +1,5 @@
 Welcome to:
+
 	     888
       o      888
      d8b     888
@@ -10,6 +11,8 @@ Welcome to:
                              888
 			     888
                              888 
+
+	
 ¡This is my first script in bash! =)
 
 I make this tool for my personal use, I share it in case someone find it useful.
