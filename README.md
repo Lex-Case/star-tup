@@ -1,4 +1,4 @@
-See in code best =>
+Code view =>
 
 Welcome to:
 	     888
