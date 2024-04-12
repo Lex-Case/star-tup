@@ -7,8 +7,8 @@
   d88P"Y88b  Y88b.  Y88b 888 888 d88P
  dP"     "Yb  "Y888  "Y88888 88888P"
                              888
-@ n0x1us idea                888
-@ 73xt0n write               888
+                             888
+                             888
 
 Welcome to star-tup:
 
