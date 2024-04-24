@@ -8,7 +8,7 @@
  dP"     "Yb  "Y888  "Y88888 88888P"
                              888
                              888
-                             888   v2 ```
+                             888   v2
 
 Welcome to star-tup:
 
