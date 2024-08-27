@@ -13,7 +13,7 @@ echo -e "\e[1;32m             888
  dP\"     \"Yb  \"Y888  \"Y88888 88888P\"
                              888
 @ n0x1us idea                888
-@ 73xt0n write               888  v2 \e[0m"
+@ 73xt0n write               888  v2.1 \e[0m"
 
 
 #Follow the numbers (#1,2,3-.) to configure your *tup.
@@ -30,7 +30,7 @@ function usage() {
         -su, --skip-update ============> do not update & upgrade the system
         -h, --help ====================> show this helpsheet
         -s, --setup ===================> configure your *tup
-
+	-f, --full ====================> set the time zone and keyboard layer settings and start a full update
 USAGE
     exit 1
 }
@@ -53,6 +53,7 @@ function current() {
     echo -e "\e[1;32m "$TIMECITY" \e[0m"
     echo "Time Zone: "
     echo -e "\e[1;32m "$TIMEZONE" \e[0m"
+}
 
 function settings() {    
     echo -e "\e[1;32m > > > > > > > > Do you want to make any changes? \e[0m $answer"
@@ -174,6 +175,13 @@ while [ "$1" != "" ]; do
         current
         settings
         ;;
+    -f | --full)
+        keyboard
+        timezone
+        fupgrade
+        finish
+        exit 1
+        ;;
     *)
         echo -e "\e[1;32m > > > > > > > > WARNING: I can't recognize some flag, check them please =) \e[0m";
         usage
@@ -198,7 +206,6 @@ if [[ $SKIP_UPDATE == true ]]; then
 elif [[ $SKIP_UPDATE == false ]]; then
     check
 fi
-
 
 #FLAGS CHECK END
 #======================================================================>
