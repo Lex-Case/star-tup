@@ -18,8 +18,6 @@ I make this tool to practise bash script and for my personal use, I share it in 
 
 Tested in Kali Linux and Kali with AutoBSP.
 
-Feel free to change what you want and leave a pull request with your improvements, 
-
 Thank you for your visit!
 
 73xt0n
