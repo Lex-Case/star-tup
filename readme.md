@@ -28,7 +28,7 @@ Thank you for your visit!
 |U|P|D|A|T|E|S|
 +-+-+-+-+-+-+-+
 
-▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ v2.2 - 03/11/2024 
+▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ v2.2 - 04/11/2024 
 New features:
 -u,--upgrade ======> set the time zone, keyboard layer and start a normal upgrade
 
@@ -43,7 +43,10 @@ New features:
 -rR,--remove-repo =======> remove repositories with its index
 
 -nE,--new-environment ====> set up a new environment (-s,-f,-pM,-dT,-iT,-iR,-n)
+
 -dT,--dir-tree ===========> create new directory tree
+-mT,--manage-tree ========> manage directory tree
+
 -uM,--users-management ===> manage account names [root]
 -pM,--pass-management ===> manage password credentials
 
